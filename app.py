@@ -5,7 +5,7 @@ from firebase_admin import credentials, messaging, firestore
 app = Flask(__name__)
 
 # Load Firebase credentials
-cred = credentials.Certificate("auth/whizsoft-40a69-firebase-adminsdk-5abjw-143fee9688.json")
+cred = credentials.Certificate("auth/whizsoft-40a69-firebase-adminsdk-5abjw-dc134c45d2.json")
 firebase_admin.initialize_app(cred)
 
 # Initialize Firestore client
